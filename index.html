@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada DNC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo/logo-dnc.webp" alt="logo-dnc">
+        <h1>Lâmpada</h1>
+    </header>
+    <main>
+        <div>
+            <img id="lamp" src="images/off.svg" alt="lamp" ondblclick="broken()"> <br>
+        </div>
+        <div id="buttons">
+            <input type="button" value="LIGAR" class="button" onclick="powerOn()">
+            <input type="button" value="DESLIGAR" class="button" onclick="powerOff()">
+        </div>
+        </main>
+    <script src="main.js"></script>
+</body>
+</html>
